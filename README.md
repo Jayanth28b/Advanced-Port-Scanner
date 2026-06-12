@@ -31,7 +31,7 @@ Ensure you have Python 3.8 or higher installed on your system.
 
 ### 2. Clone and Navigate
 ```bash
-git clone [https://github.com/your-username/advanced-port-scanner.git](https://github.com/your-username/advanced-port-scanner.git)
+git clone [https://github.com/your-username/Advanced-port-scanner.git](https://github.com/your-username/advanced-port-scanner.git)
 cd advanced-port-scanner
 
 
@@ -64,5 +64,5 @@ python main.py
 
 📊 Sample Visual Metrics
 
-![Application Screenshot](ss1.png)
-![Application Screenshot](ss2.png)
+![Application Screenshot](gui_interface.png)
+![Application Screenshot](sample_report.png)
