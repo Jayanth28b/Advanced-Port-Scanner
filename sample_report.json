@@ -1,0 +1,29 @@
+{
+    "statistics": {
+        "total_scanned": 425,
+        "open_ports": 2,
+        "risky_found": 1,
+        "start_time": "2026-06-12 17:15:35.596088",
+        "os_guess": "Linux/Unix (Standard Stack)",
+        "end_time": "2026-06-12 17:15:40.657847",
+        "duration": "0:00:05.061759"
+    },
+    "open_ports": [
+        {
+            "port": 135,
+            "status": "OPEN",
+            "service": "epmap",
+            "banner": "Unknown Service",
+            "risk_level": "LOW",
+            "recommendation": "N/A"
+        },
+        {
+            "port": 445,
+            "status": "OPEN",
+            "service": "microsoft-ds",
+            "banner": "Unknown Service",
+            "risk_level": "HIGH",
+            "recommendation": "Exposed SMB is highly susceptible to lateral movement exploits (e.g., EternalBlue). Restrict access via firewall."
+        }
+    ]
+}
